@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: rgb(73, 10, 132);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(223, 220, 226);
+  border-radius: 20px;
+}
+
+article {
+
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(82, 81, 81);
+}
+
+.info {
+  flex: 3;
+  text-align: center;
+}
+
+h3 {
+  flex: 1;
+}
+
+article p {
+  font-size: 25px;
+  line-height: 1;
+}
+
+.btn-success {
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+
+}
